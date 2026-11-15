@@ -1,0 +1,74 @@
+{
+  "weeks_history": 201,
+  "queues": 6,
+  "backtest_wape_sarimax": 0.018074459567215193,
+  "backtest_wape_seasonal_naive_growth": 0.03539935450725659,
+  "backtest_wape_seasonal_naive": 0.102007960184523,
+  "p10_p90_coverage": 0.8525641025641025,
+  "staffed_fte": 1380,
+  "escalation": {
+    "erlang_agent_hours_per_day": 410.0,
+    "workload_agent_hours_per_day": 352.8,
+    "erlang_uplift_vs_workload": 0.1621315192743764,
+    "avg_occupancy": 0.8604878048780488,
+    "fte": 102.5
+  },
+  "scenarios": {
+    "baseline": {
+      "required_fte_peak": 1461.79,
+      "worst_week_shortfall_fte": 81.79,
+      "sla_risk_queue_weeks": 43,
+      "flex_cost_fte_weeks": 528.01,
+      "sla_risk_queue_weeks_after_flex": 0,
+      "hires": "{}"
+    },
+    "p90_volume": {
+      "required_fte_peak": 1513.73,
+      "worst_week_shortfall_fte": 133.73,
+      "sla_risk_queue_weeks": 58,
+      "flex_cost_fte_weeks": 1242.27,
+      "sla_risk_queue_weeks_after_flex": 0,
+      "hires": "{\"VN\": 7}"
+    },
+    "election_spike": {
+      "required_fte_peak": 1537.06,
+      "worst_week_shortfall_fte": 157.06,
+      "sla_risk_queue_weeks": 45,
+      "flex_cost_fte_weeks": 981.51,
+      "sla_risk_queue_weeks_after_flex": 0,
+      "hires": "{}"
+    },
+    "policy_update": {
+      "required_fte_peak": 1757.01,
+      "worst_week_shortfall_fte": 377.01,
+      "sla_risk_queue_weeks": 66,
+      "flex_cost_fte_weeks": 3026.04,
+      "sla_risk_queue_weeks_after_flex": 17,
+      "hires": "{\"TH\": 40, \"VN\": 40}"
+    },
+    "policy_update_phased": {
+      "required_fte_peak": 1720.55,
+      "worst_week_shortfall_fte": 340.55,
+      "sla_risk_queue_weeks": 54,
+      "flex_cost_fte_weeks": 2885.51,
+      "sla_risk_queue_weeks_after_flex": 7,
+      "hires": "{\"TH\": 33, \"VN\": 40}"
+    },
+    "attrition": {
+      "required_fte_peak": 1461.79,
+      "worst_week_shortfall_fte": 123.39,
+      "sla_risk_queue_weeks": 46,
+      "flex_cost_fte_weeks": 1301.69,
+      "sla_risk_queue_weeks_after_flex": 5,
+      "hires": "{\"VN\": 36}"
+    },
+    "automation_gain": {
+      "required_fte_peak": 1418.7,
+      "worst_week_shortfall_fte": 38.7,
+      "sla_risk_queue_weeks": 0,
+      "flex_cost_fte_weeks": 0.0,
+      "sla_risk_queue_weeks_after_flex": 0,
+      "hires": "{}"
+    }
+  }
+}

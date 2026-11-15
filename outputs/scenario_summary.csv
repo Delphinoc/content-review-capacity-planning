@@ -1,0 +1,8 @@
+scenario,required_fte_avg,required_fte_peak,staffed_fte_avg,worst_week_shortfall_fte,sla_risk_queue_weeks,queues_at_risk,max_backlog_days,description,flex_cost_fte_weeks,overtime_fte_weeks,vendor_fte_weeks,cross_skill_fte_weeks,hires,sla_risk_queue_weeks_after_flex,lp_status
+baseline,1433.56,1461.79,1380.0,81.79,43,"EN, ID, MY, PH, TH, VN",4.45,"P50 forecast, current headcount",528.01,502.86,0.0,0.0,{},0,Optimal
+p90_volume,1481.78,1513.73,1380.0,133.73,58,"EN, ID, MY, PH, TH, VN",7.39,Volume at the forecast's 90th percentile in every week,1242.27,974.87,98.2,4.8,"{""VN"": 7}",0,Optimal
+election_spike,1462.42,1537.06,1380.0,157.06,45,"EN, ID, MY, PH, TH, VN",17.54,Snap election in Malaysia: MY +40% and EN +10% (regional English content) in weeks 6-10,981.51,639.94,238.13,142.32,{},0,Optimal
+policy_update,1552.14,1757.01,1380.0,377.01,66,"EN, ID, MY, PH, TH, VN",11.41,"New policy across all queues: AHT +15% for 6 weeks from week 3, plus +5pp shrinkage in weeks 3-4 for retraining",3026.04,895.03,804.81,58.63,"{""TH"": 40, ""VN"": 40}",17,Optimal
+policy_update_phased,1552.91,1720.55,1380.0,340.55,54,"EN, ID, MY, PH, TH, VN",11.41,"Same policy, phased: ID, PH, EN (vendor-supported queues) go live in week 3, TH, VN, MY in week 8; retraining shrinkage follows each wave",2885.51,841.45,809.99,70.92,"{""TH"": 33, ""VN"": 40}",7,Optimal
+attrition,1433.56,1461.79,1348.0,123.39,46,"EN, ID, MY, PH, TH, VN",9.52,8% of reviewers in ID and VN leave by week 4 (backfills only land after the hiring lead time),1301.69,551.49,195.86,0.0,"{""VN"": 36}",5,Optimal
+automation_gain,1333.09,1418.7,1380.0,38.7,0,none,0.52,Better machine pre-filtering removes 10% of human-review volume from week 5,0.0,0.0,0.0,3.95,{},0,Optimal
